@@ -29,6 +29,12 @@ Just link 2 CSS files into your web head.
 ```
 
 ## Components
+### Typography
+Usable tags are:
+```html
+<h1> - <h4>
+<p> <b> <em> <small> <strong> <a> <article> <img> <figure> <figcaption>
+```
 
 ### Order and unorder lists
 ```html
@@ -37,13 +43,19 @@ Just link 2 CSS files into your web head.
     <ul class="ul2">
         <li>List 1.1</li>
     </ul>
- </ul>
+</ul>
+
 <ol class="ol1">
     <li> List 1</li>
     <ol class="ol2">
         <li>List 1.1</li>
     </ol>
- </ol>
+</ol>
 ```
-### First
-### Second
+### Images
+```html
+<figure>
+    <img src="./.../your image.jpg" alt="image">
+    <figcaption> Your possible image (<i>Author: Somebody</i>) </figcaption>
+</figure>
+```
