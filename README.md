@@ -3,7 +3,7 @@
 ## Demo site
 Link to **[demo](http://www.github.com/MarekPalounek/MarekPalounek.github.io/typography)** site for preview.
 
-Link to **[demo](https://github.com/MarekPalounek/MarekPalounek.github.io/tree/master/Typography)** site for preview.
+Link to **[demo](github.io/MarekPalounek/MarekPalounek.github.io/tree/master/Typography)** site for preview.
 
 ## Description
 This typgrahy library is mainly identified for blog writers.
