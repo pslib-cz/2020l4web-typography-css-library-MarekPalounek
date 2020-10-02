@@ -2,9 +2,17 @@
 **Author:** *Marek Palounek*
 ## Demo site
 Link to **[demo](http://www.github.io)** site for preview.
+
 ## Description
 This typgrahy library is mainly identified for blog writers.
 It is created with CSS which is based on styling HTML tags, but there are a few classes. 
+
+## Implementation
+Just link 2 CSS files into your web head.
+
+*Note: The normalize.css must be first in order.*
+
++You have to link google fonts as you see in dependecies
 
 ## Dependecies
 ```html
@@ -19,15 +27,23 @@ It is created with CSS which is based on styling HTML tags, but there are a few 
     <title>Your web</title>
 </head>
 ```
-## Implementation
-Just link 2 CSS files into your web head.
-Note: The normalize.css must be first in order.
-## Usage
-...
-## Components
-### 
-```html
 
+## Components
+
+### Order and unorder lists
+```html
+<ul class="ul1">
+    <li> List 1</li>
+    <ul class="ul2">
+        <li>List 1.1</li>
+    </ul>
+ </ul>
+<ol class="ol1">
+    <li> List 1</li>
+    <ol class="ol2">
+        <li>List 1.1</li>
+    </ol>
+ </ol>
 ```
 ### First
 ### Second
