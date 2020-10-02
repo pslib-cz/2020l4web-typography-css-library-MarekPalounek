@@ -1,8 +1,6 @@
 # Typography CSS library
 **Author:** *Marek Palounek*
 ## Demo site
-Link to **[demo](http://www.github.com/MarekPalounek/MarekPalounek.github.io/typography)** site for preview.
-
 Link to **[demo](https://marekpalounek.github.io/Typography/)** site for preview.
 
 ## Description
