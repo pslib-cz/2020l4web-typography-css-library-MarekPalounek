@@ -1,7 +1,7 @@
 # Typography CSS library
 **Author:** *Marek Palounek*
 ## Demo site
-Link to **[demo](http://www.github.io)** site for preview.
+Link to site for preview: **[demo](https://marekpalounek.github.io/Typography/)** 
 
 ## Description
 This typgrahy library is mainly identified for blog writers.
