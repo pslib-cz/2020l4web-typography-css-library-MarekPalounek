@@ -1,6 +1,4 @@
 body{
-    width: 70vw;
-    margin: 0 auto;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -8,8 +6,6 @@ h1, h2, h3, h4 {
     font-family: 'Roboto', sans-serif;
     letter-spacing: 0.1em;
     font-weight: 400;
-    margin: 1em 0 0.5em 0;
-    padding: 0 0.2em;
 }
 
 h1{
@@ -33,7 +29,6 @@ p{
     font-size: 1em;
     font-weight: 300;
     letter-spacing: 0.05em;
-    padding: 1em 0.2em;
 
 }
 
@@ -53,9 +48,7 @@ strong{
     color: rgb(220, 0, 0);
 }
 
-li{
-    padding: 0.5em 0;
-}
+
 
 a{
     font-weight: 400;
@@ -64,7 +57,6 @@ a{
 a:link{
     color: rgb(0, 0, 200);
     border:1px solid  rgb(0, 0, 200);
-    padding: 0.1em 0.2em;
     text-decoration: none;
 }
 
@@ -96,60 +88,17 @@ a:hover{
 }
 
 article{
-    margin: 2.5em 0 5em 0;
-    padding-left: 1em;
     border-left: solid 1px black;
     
-
 }
-
 
 article p:nth-of-type(even) {
     background-color: rgba(0, 0, 0, 0.08);
 
 }
 
-img{
-    max-width: 100%;
-}
-
-figure{
-    width: 80%;
-    display: block;
-    margin: 4em auto;
-}
-
 figcaption{
-    padding: 1em;
     text-align: center;
     color: rgba(0, 0, 0, 0.6);
 }
 
-
-
-
-
-
-@media only screen and (max-width: 1024px){
-    body{
-        width: 85vw;
-    }
-
-}
-
-
-@media only screen and (max-width: 768px){
-    body{
-        width: 95vw;
-    }
-
-}
-
-@media print{
-    body{
-        width: 100%;
-    }
-    ul, ol, figure{
-        break-inside: avoid;
-    }
-}
